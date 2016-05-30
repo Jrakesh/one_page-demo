@@ -30,6 +30,7 @@ gem "twitter-bootstrap-rails"
 gem 'bootstrap-sass', '3.2.0.2'
 gem 'jquery-turbolinks'
 gem 'devise_zxcvbn'
+gem "administrate", "~> 0.2.1"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

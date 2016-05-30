@@ -1,5 +1,12 @@
 Rails.application.routes.draw do
   
+  namespace :admin do
+    resources :users
+resources :posts
+
+    root to: "users#index"
+  end
+
   root 'home#index'
   devise_for :users, path: "", controllers: {registrations: "users/registrations", sessions: "users/sessions" }, path_names: { sign_in: 'login', password: 'forgot', sign_up: 'register'}
   resources :posts
