@@ -19,10 +19,6 @@
 @import 'bootstrap/theme';
 
 
-// import the CSS framework
-@import "bootstrap";
-@import "bootstrap-sprockets";
-
 // make all images responsive by default
 img {
   @extend .img-responsive;
@@ -195,4 +191,8 @@ body,html {
 
 .alert-notice {
   @extend .alert-info;
+}
+
+a:hover {
+  background-color: transparent !important;
 }

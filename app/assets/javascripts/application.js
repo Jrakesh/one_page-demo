@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require bootstrap/dropdown
 //= require turbolinks
 //= require global

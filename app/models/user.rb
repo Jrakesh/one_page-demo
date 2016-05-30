@@ -7,7 +7,5 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable, :zxcvbnable
 
-  # def weak_words
-  #   ['mysitename', self.emai, self.username]
-  # end
+  has_many :posts
 end

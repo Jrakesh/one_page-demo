@@ -24,7 +24,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise', '3.4.1'
-gem 'bootstrap-sass'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
+gem 'bootstrap-sass', '3.2.0.2'
 gem 'jquery-turbolinks'
 gem 'devise_zxcvbn'
 # Use ActiveModel has_secure_password
